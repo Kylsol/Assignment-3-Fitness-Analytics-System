@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs/promises');
-const { workoutCalculator } = require('../src/workoutReader');
+const { workoutCalculator } = require('../workoutReader');
 
 const TEST_FILE = path.join(__dirname, 'test-workouts.csv');
 
